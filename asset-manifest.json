@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/telebot/static/css/main.0454ca08.css",
-    "main.js": "/telebot/static/js/main.e2257ef9.js",
+    "main.js": "/telebot/static/js/main.41b8d5a9.js",
     "static/media/pizza.png": "/telebot/static/media/pizza.c644001e8aa3f3446e15.png",
     "static/media/kebab.png": "/telebot/static/media/kebab.3c4858e89de56131e20d.png",
     "static/media/burger.png": "/telebot/static/media/burger.cb91a41266710be009e6.png",
@@ -11,10 +11,10 @@
     "static/media/water.png": "/telebot/static/media/water.52ba975d6e1bc5be32d3.png",
     "index.html": "/telebot/index.html",
     "main.0454ca08.css.map": "/telebot/static/css/main.0454ca08.css.map",
-    "main.e2257ef9.js.map": "/telebot/static/js/main.e2257ef9.js.map"
+    "main.41b8d5a9.js.map": "/telebot/static/js/main.41b8d5a9.js.map"
   },
   "entrypoints": [
     "static/css/main.0454ca08.css",
-    "static/js/main.e2257ef9.js"
+    "static/js/main.41b8d5a9.js"
   ]
 }
