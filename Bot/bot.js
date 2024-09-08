@@ -1,8 +1,8 @@
 const { Telegraf } = require("telegraf");
-const TOKEN = "5153026043:AAEOA6Jgze21I8PGuZWKJoNMGY1Wzl6S5OI";
+const TOKEN = "7509158994:AAGgSbclt20WASeGwViZbyD9Ho_nzg7DAzE";
 const bot = new Telegraf(TOKEN);
 
-const web_link = "https://celebrated-torte-184681.netlify.app/";
+const web_link = "https://tarikelmelih.github.io/telebot/";
 
 bot.start((ctx) =>
   ctx.reply("Welcome :)))))", {
