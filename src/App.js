@@ -12,7 +12,10 @@ function App() {
 
   useEffect(() => {
     tele.ready();
-  });
+    return () => {
+      tele.MainButton.offClick();
+    };
+  }, []);
 
   const onAdd = (food) => {
     const exist = cartItems.find((x) => x.id === food.id);
@@ -43,6 +46,13 @@ function App() {
   const onCheckout = () => {
     tele.MainButton.text = "Pay :)";
     tele.MainButton.show();
+
+    // Add event listener for the MainButton click
+    tele.MainButton.onClick(() => {
+      // Here you can add the logic for payment processing
+      // For now, let's just show an alert
+      tele.showAlert(`Total: $${cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0).toFixed(2)}`);
+    });
   };
 
   return (
