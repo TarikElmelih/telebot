@@ -1,5 +1,5 @@
 const { Telegraf } = require("telegraf");
-const TOKEN = "7509158994:AAGgSbclt20WASeGwViZbyD9Ho_nzg7DAzE";
+const TOKEN = "";
 const bot = new Telegraf(TOKEN);
 
 const web_link = "https://tarikelmelih.github.io/telebot/";
